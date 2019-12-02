@@ -1,5 +1,9 @@
 ﻿# Fast Offchain Blockchain Storage: IPFS, Ethereum and Merkle B-trees
  
+ ## Introduction and Motivation
+ 
+ We all know that storage massive data on the Blockchain is very expensive. And we also agree that using IPFS for a single blob of data containing and big database is also inefficient on the time dimension. Then, is needed an alternative that is efficient in blockchain usage and also fast in time. Enter the use of IPFS Merkle B-tree on Smart Contracts...
+ 
  ## Storage of B-trees on IPFS
  
  Using a Merkle B-tree implemented on a decentralized public (and free) storage (like this implementation https://www.npmjs.com/package/merkle-btree) we satisfy the requirement of have a free and fast storage for the dataset. Now the problem remains who can update the root of this Merkle tree, that is the administrator.
