@@ -26,4 +26,6 @@
 [2] Merkle B-tree NodeJS package https://www.npmjs.com/package/merkle-btree
 
 [3] Merkle Proofs Explained https://medium.com/crypto-0-nite/merkle-proofs-explained-6dd429623dc5
+
+[4] Integrity Assurance for Outsourced Databases withtout DBMS Modification, Wei and Yu, 2014. (https://books.google.it/books?id=i-UkBAAAQBAJ&pg=PA2&lpg=PA2&dq=%22merkle-btree%22&source=bl&ots=j6agOarB8g&sig=ACfU3U2_adXYviImefTRRs4-0vwWnuW25A&hl=en&sa=X&ved=2ahUKEwjb89rS15XmAhVD3qQKHRT8CcYQ6AEwBnoECAoQAQ#v=onepage&q=%22merkle-btree%22&f=false)
  
