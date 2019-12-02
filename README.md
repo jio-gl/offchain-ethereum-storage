@@ -16,7 +16,7 @@
  
  ## Maintaining Immutability of B-tree over transactions
  
- Maintaining immutability of the database accross transactions is a property that we want to move from Ethereum into our off-chain storage. For this, we use Merkle Proofs (https://medium.com/crypto-0-nite/merkle-proofs-explained-6dd429623dc5). We store in the smart contract of the database, only one Merkle Proof per database, and only a new valid Merkle Proof that is a valid successor of the previous Merkle Proof can replace the previous one. Regarding ordering or transactions, if we have two concurrent transactions on the database on the same block, only the first one will be applied effectively in the database. The other transaction will not be applied because now the Merkle Proof will be invalid as the tree will have changed.
+ Maintaining immutability of the database accross transactions is a property that we want to move from Ethereum into our off-chain storage. For this, we use Merkle Proofs (https://medium.com/crypto-0-nite/merkle-proofs-explained-6dd429623dc5). In the smart contract, we *store per database only one Merkle Proof per database* and only a new valid Merkle Proof that is a valid successor of the previous Merkle Proof can replace the previous one. Regarding ordering or transactions, if we have two concurrent transactions on the database on the same block, only the first one will be applied effectively in the database. The other transaction will not be applied because now the Merkle Proof will be invalid as the tree will have changed.
  
  
 ## References
